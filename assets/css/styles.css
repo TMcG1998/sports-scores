@@ -1,0 +1,71 @@
+body {
+    background-color: #3A435E;
+}
+
+.sport-btn {
+    max-width: 200px;
+    background-color: #3A435E;
+    color: black;
+    border: none;
+}
+
+.sport-btn:hover {
+    background-color: darkgray;
+}
+
+.game {
+    background-color: #6C6F7F;
+    border: 1px solid #D3D3D3;
+    border-radius: 50px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 7px;
+}
+
+.time, .period {
+    padding: 26px 0;
+    margin: 0 20px 0 5px;
+}
+
+.time {
+    width: 62px;
+}
+
+.period {
+    margin-left: 15px;
+    width: 20px;
+}
+
+.matchup {
+    padding-top: 13px; 
+    width: 300px;
+}
+
+.score {
+    width: 30px;
+    padding: 13px 0;
+    margin-left: auto;
+}
+
+.score p {
+    margin-bottom: 0;
+}
+
+.odds {
+    display: inline-block;
+    width: 50px;
+}
+
+.home-logo, .away-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.green {
+    color: #32de84;
+}
+
+.red {
+    color: #BA0021;
+}

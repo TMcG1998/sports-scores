@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scoar: Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
 <body>
-    
+    <main class="flex-row">
+        <div class="row mt-5 justify-content-center" id="nav-bar">
+            <h2 class="col-12 col-lg-1 text-right">Scores</h2>
+            <button class="btn btn-secondary col-4 col-lg sport-btn" data-sport="hockey">NHL</button>
+            <button class="btn btn-secondary col-4 col-lg sport-btn" data-sport="baseball">MLB</button>
+            <button class="btn btn-secondary col-4 col-lg sport-btn" data-sport="basketball">NBA</button>
+        </div>
+
+        <div id="score-container" class="container">
+            <div class="row rounded game">
+                <span class="time">12:00PM</span>
+                <div class="matchup">
+                    <div class="home-team">
+                        <span class="odds green">-200</span>
+                        <p class="home-name d-inline">New York Rangers</p>
+                    </div>
+                    <div class="away-team">
+                        <span class="odds red">+200</span>
+                        <p class="away-name d-inline">New York Islanders</p>
+                    </div>
+                </div>
+                <div class="score">
+                    <p class="home-score">0</p>
+                    <p class="away-score">0</p>
+                </div>
+                <span class="period">P1</span>
+            </div>    
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
